@@ -43,4 +43,5 @@ const Container = styled.div`
 const Main = styled.div`
   padding: 1em;
   overflow: auto;
+  font-size: larger;
 `;

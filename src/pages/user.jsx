@@ -127,13 +127,12 @@ const Container = styled.div`
   justify-content: center;
   padding: 2em;
   overflow: hidden;
-
 `;
 
 const StyledForm = styled(Form)`
   padding: 2em;
   width: 100%;
-  max-width: 750px;
+  max-width: 1000px;
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);

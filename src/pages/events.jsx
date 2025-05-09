@@ -29,7 +29,7 @@ function Events() {
   return (
     <Container>
       <Title onClick={() => toggleExpand('goods')}>
-        文创产品
+        定制服务
         <ArrowIcon $expand={expand.goods}>▼</ArrowIcon>
       </Title>
       {expand.goods && (
@@ -65,7 +65,7 @@ function Events() {
         </Content>
       )}
       <Title onClick={() => toggleExpand('serve')}>
-        定制服务
+        文创产品
         <ArrowIcon $expand={expand.serve}>▼</ArrowIcon>
       </Title>
       {expand.serve && (
@@ -143,7 +143,7 @@ export default Events;
 const Container = styled.div`
   display: flex;
   margin: 2em auto;
-  max-width: 85vw;
+  max-width: 1000px;
   border-radius: 8px;
   padding-bottom: 5px;
   justify-content: center;
@@ -170,7 +170,7 @@ const Title = styled.h2`
 `
 
 const Content = styled.div`
-  max-width: 80vw;
+  max-width: 980px;
   padding: 5vw;
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 5px;
